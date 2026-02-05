@@ -26,25 +26,6 @@ CoderLMS is a desktop application that combines curated coding challenges, a pro
 - **RAM**: 4GB minimum, 8GB+ recommended for AI features
 - **Storage**: 500MB for app, 2-4GB additional for AI models
 
-## Project Structure
-
-```
-codelearn_lms/
-├── src/                    # Source code
-│   ├── core/              # App bootstrap and configuration
-│   ├── controllers/       # Business logic controllers
-│   ├── services/          # Service layer (AI, tests, etc.)
-│   ├── ui/                # User interface components
-│   ├── runners/           # Language test runners
-│   └── database/          # SQLite database layer
-├── assets/                # Icons, images, themes
-├── data/                  # Challenge data and templates
-├── docs/                  # Documentation
-├── models/                # AI model files (GGUF)
-├── sdks/                  # Bundled SDKs (Dart)
-├── tests/                 # Test suites
-└── licensing/             # License management
-```
 
 ## License
 
